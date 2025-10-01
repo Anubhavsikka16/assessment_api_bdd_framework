@@ -5,11 +5,7 @@ from utilities.configreader import read_config
 from resources_payload.resources import APIPaths
 from resources_payload import payload
 
-
-
-
-
-    
+  
     
 @then('I request historical EOD data for symbol "{symbol}" from "{start}" to "{end}"')
 def step_request_historical(context, symbol, start, end):

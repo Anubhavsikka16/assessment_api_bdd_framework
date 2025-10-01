@@ -4,6 +4,8 @@ from behave import given, then
 from utilities.configreader import read_config
 from resources_payload.resources import APIPaths
 from resources_payload import payload
+
+
 @then("I request a tickers list with limit {limit}")
 def step_request_tickers(context, limit):
     context.limit = int(limit)

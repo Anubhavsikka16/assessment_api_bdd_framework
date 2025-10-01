@@ -4,8 +4,6 @@ from utilities.configreader import read_config
 from resources_payload.resources import APIPaths
 from resources_payload import payload
 
-# We will import pytest fixtures via behave’s context if needed, or we can
-# use environment vars. For simplicity, I’ll assume using environment var or global.
 
 
 

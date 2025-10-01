@@ -3,6 +3,8 @@ Assessment Test
 API: https://marketstack.com/documentation_v2
 API key: a83a0773b6f49bb8371d7e224323156e
 
+All features files can be run using command: behave features/
+
 Screenshot of all 4 API runs on the local machine: 
 
 <img width="1440" height="900" alt="Screenshot 2025-10-01 at 7 06 42 PM" src="https://github.com/user-attachments/assets/33f70346-a37d-47ee-86d1-73cb2eb25194" />
